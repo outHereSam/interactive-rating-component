@@ -31,7 +31,7 @@ p {
 .rating-card {
     max-width: 400px;
     background-color: #1D242E;
-    margin-bottom: 40px;
+    margin: 40px;
     padding: 30px;
     border-radius: 16px;
     box-shadow: 0 8px 8px rgba(19, 20, 25, 100%);
@@ -109,4 +109,12 @@ button:hover {
 .active {
     background-color: hsl(25, 97%, 53%);
     color: #fff;
+}
+
+@media only screen and (max-width: 420px) {
+    .number {
+        font-size: 14px;
+        width: 36px;
+        height: 36px;
+    }
 }
